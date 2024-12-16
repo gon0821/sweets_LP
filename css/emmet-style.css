@@ -1,0 +1,47 @@
+/*
+基本の書き方
+プロパティ名（省略形）：値（省略形）
+*/
+
+h1 {
+  /* p:10 */
+  padding: 10px;
+  /* p10 */
+  padding: 10px;
+
+  /* m:a */
+  /* アルファベットの組み合わせだけコロン使うとよい */
+  margin: auto;
+
+
+  /* fs16 */
+  font-style: 16px;
+  /* fz16 */
+  font-size: 16px;
+
+  /* p10rem */
+  padding: 10rem;
+  /* p10% */
+  padding: 10%;
+
+  /* 値の複数指定 */
+  /* p10-20 */
+  padding: 10px 20px;
+
+  /* p10-20-10-5 */
+  padding: 10px 20px 10px 5px;
+
+  /* bd1-solid-#fff */
+  border: 1px solid #fff;
+
+  /* !important */
+  /* p10! */
+  padding: 10px !important;
+
+  /* プロパティの複数指定 */
+  /* w20+h20 */
+  width: 20px;
+  height: 20px;
+
+  padding-top: 30px;
+}
